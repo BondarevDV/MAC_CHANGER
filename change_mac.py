@@ -24,6 +24,6 @@ def mac_changer(mac_adress, interface):
 
 if __name__ == "__main__":
     print(subprocess.call("ifconfig", shell=True))
-    mac_address_backup("eth0")
-    mac_changer("00:11:22:33:44:55", "eth0")
+    #mac_address_backup("eth0")
+    mac_changer("08:00:27:d8:3f:2b", "eth0")
     print(subprocess.call("ifconfig", shell=True))
